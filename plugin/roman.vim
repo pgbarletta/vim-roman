@@ -14,30 +14,31 @@ let g:paleta_nt = [{ 'ctermbg':'Cyan',       'ctermfg':'Black', 'guibg':'#8CCBEA
         \   { 'ctermbg':'Yellow',     'ctermfg':'Black', 'guibg':'#FFDB72', 'guifg':'Black' },
         \   { 'ctermbg':'Magenta',    'ctermfg':'Black', 'guibg':'#FFB3FF', 'guifg':'Black' }]
 
-let g:Aminoacidos = ['A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
-let g:aminoacidos = ['a', 'r', 'n', 'd', 'c', 'e', 'q', 'g', 'h', 'i', 'l', 'k', 'm', 'f', 'p', 's', 't', 'w', 'y', 'v']
+let g:Aminoacidos = ['G', 'A', 'S', 'T', 'C', 'V', 'I', 'L', 'M', 'P', 'F', 'Y', 'W', 'N', 'Q', 'H', 'D', 'E', 'K', 'R']
+let g:aminoacidos = ['g', 'a', 's', 't', 'c', 'v', 'i', 'l', 'm', 'p', 'f', 'y', 'w', 'n', 'q', 'h', 'd', 'e', 'k', 'r']
 
-let g:paleta_aa = [{ 'ctermbg':'Blue',       'ctermfg':'Black' },
-        \ { 'ctermbg':'Magenta',    'ctermfg':'Black' },
-        \ { 'ctermbg':'Green',      'ctermfg':'Black' },
-        \ { 'ctermbg':'Yellow',     'ctermfg':'Black' },
-        \ { 'ctermbg':'DarkCyan',   'ctermfg':'Black' },
-        \ { 'ctermbg':'Cyan',       'ctermfg':'Black' },
-        \ { 'ctermbg':'DarkBlue',   'ctermfg':'Black' },
-        \ { 'ctermbg':'DarkMagenta','ctermfg':'Black' },
-        \ { 'ctermbg':'DarkRed',    'ctermfg':'Black' },
-        \ { 'ctermbg':'Brown',      'ctermfg':'Black' },
-        \ { 'ctermbg':'DarkGreen',  'ctermfg':'Black' },
-        \ { 'ctermbg':'Red',        'ctermfg':'Black' },
-        \ { 'ctermbg':'White',      'ctermfg':'Gray', },
-        \ { 'ctermbg':'LightGray',  'ctermfg':'Black' },
-        \ { 'ctermbg':'Gray',       'ctermfg':'Black' },
-        \ { 'ctermbg':'Black',      'ctermfg':'White' },
-        \ { 'ctermbg':'Black',      'ctermfg':'Gray', },
+let g:paleta_aa = [{ 'ctermbg':'Yellow',       'ctermfg':'Black' },
+        \ { 'ctermbg':'Yellow',     'ctermfg':'DarkRed'},
+        \ { 'ctermbg':'Yellow',     'ctermfg':'DarkBlue'},
+        \ { 'ctermbg':'Yellow',     'ctermfg':'Magenta'},
+        \ { 'ctermbg':'Green',      'ctermfg':'Black'},
+        \ { 'ctermbg':'Green',      'ctermfg':'DarkYellow'},
+        \ { 'ctermbg':'Green',      'ctermfg':'Magenta'},
+        \ { 'ctermbg':'Green',      'ctermfg':'DarkRed'},
+        \ { 'ctermbg':'Green',      'ctermfg':'DarkBlue'},
+        \ { 'ctermbg':'DarkGreen',  'ctermfg':'DarkRed'},
+        \ { 'ctermbg':'DarkGreen',  'ctermfg':'DarkRed'},
+        \ { 'ctermbg':'DarkGreen',  'ctermfg':'DarkRed' },
+        \ { 'ctermbg':'DarkGreen',  'ctermfg':'DarkRed' },
+        \ { 'ctermbg':'Magenta',    'ctermfg':'White', },
+        \ { 'ctermbg':'Magenta',    'ctermfg':'DarkRed' },
+        \ { 'ctermbg':'Magenta',    'ctermfg':'Green' },
+        \ { 'ctermbg':'Red',        'ctermfg':'White' },
+        \ { 'ctermbg':'Red',        'ctermfg':'Black', },
         \ { 'ctermbg':'Blue',       'ctermfg':'White' },
-        \ { 'ctermbg':'DarkRed',    'ctermfg':'White' },
-        \ { 'ctermbg':'DarkGreen',  'ctermfg':'White' },
-        \ { 'ctermbg':'DarkYellow', 'ctermfg':'White' },
+        \ { 'ctermbg':'Blue',       'ctermfg':'Black' },
+        \ { 'ctermbg':'LightGray',  'ctermfg':'Black' },
+        \ { 'ctermbg':'LightGray',  'ctermfg':'Black' },
         \]
 
 function! s:Resalte_aa()
